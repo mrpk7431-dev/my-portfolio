@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Praveenkumar - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Preloader -->
+    <div id="preloader">
+        <div class="professional-loader">
+            <div class="loader-text">My <span>Portfolio</span></div>
+            <div class="loader-progress">
+                <div class="progress-bar"></div>
+            </div>
+        </div>
+    </div>
+    <canvas id="bg-canvas"></canvas>
+    
+    <nav>
+        <div class="logo"><a href="#about" style="color: inherit; text-decoration: none;">Port<span>folio</span></a></div>
+        <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#certificates">Certificates</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+
+
+    <section id="about" class="section">
+        <h2 class="section-title reveal">About <span>Me</span></h2>
+        <div class="about-container reveal">
+            <div class="about-image glass-panel">
+                <img src="assets/profile.jpg" alt="Profile Picture" class="profile-img">
+            </div>
+            <div class="about-text glass-panel">
+                <h3>Hello, I'm Praveenkumar.</h3>
+                <p>Artificial Intelligence and Data Science student with hands-on experience in Python, Machine Learning, and Data Analytics. Passionate about developing AI-driven solutions to address real-world challenges and continuously enhancing technical expertise through practical projects, research, and continuous learning.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="education" class="section">
+        <h2 class="section-title reveal">My <span>Education</span></h2>
+        <div class="education-container reveal">
+            <div class="timeline">
+                <div class="timeline-item glass-panel">
+                    <div class="timeline-date">2024 - 2028</div>
+                    <h3><i class="fa-solid fa-graduation-cap" style="margin-right:10px; color:var(--primary-color)"></i>B.Tech in Artificial Intelligence & Data Science</h3>
+                    <p class="timeline-college"><i class="fa-solid fa-building-columns" style="margin-right:10px; color:var(--accent-color)"></i>JKK Munirajah College of Technology</p>
+                    <p class="timeline-location"><i class="fa-solid fa-location-dot" style="margin-right:10px; color:var(--secondary-color)"></i>TN Palayam - 638 506, Gobi (Tk), Erode (Dt).</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="section">
+        <h2 class="section-title reveal">My <span>Skills</span></h2>
+        <div class="skills-grid reveal">
+            <!-- Category 1 -->
+            <div class="skill-category glass-panel">
+                <div class="category-header">
+                    <i class="fa-solid fa-code"></i>
+                    <h3>Languages & Core</h3>
+                </div>
+                <div class="skill-tags">
+                    <span class="skill-tag">Python</span>
+                    <span class="skill-tag">SQL</span>
+                    <span class="skill-tag">C</span>
+                </div>
+            </div>
+            
+            <!-- Category 2 -->
+            <div class="skill-category glass-panel">
+                <div class="category-header">
+                    <i class="fa-solid fa-brain"></i>
+                    <h3>AI & Machine Learning</h3>
+                </div>
+                <div class="skill-tags">
+                    <span class="skill-tag">TensorFlow</span>
+                    <span class="skill-tag">PyTorch</span>
+                    <span class="skill-tag">Computer Vision</span>
+                    <span class="skill-tag">NLP</span>
+                </div>
+            </div>
+
+            <!-- Category 3 -->
+            <div class="skill-category glass-panel">
+                <div class="category-header">
+                    <i class="fa-solid fa-chart-pie"></i>
+                    <h3>Data Science</h3>
+                </div>
+                <div class="skill-tags">
+                    <span class="skill-tag">Pandas</span>
+                    <span class="skill-tag">NumPy</span>
+                    <span class="skill-tag">Data Visualization</span>
+                </div>
+            </div>
+
+            <!-- Category 4 -->
+            <div class="skill-category glass-panel">
+                <div class="category-header">
+                    <i class="fa-solid fa-screwdriver-wrench"></i>
+                    <h3>Tools & Environments</h3>
+                </div>
+                <div class="skill-tags">
+                    <span class="skill-tag">Git</span>
+                    <span class="skill-tag">GitHub</span>
+                    <span class="skill-tag">Jupyter Notebook</span>
+                    <span class="skill-tag">VS Code</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="section">
+        <h2 class="section-title reveal">My <span>Projects</span></h2>
+        <div class="projects-grid">
+            <!-- Project 1 -->
+            <div class="project-card glass-panel reveal">
+                <div class="project-icon"><i class="fa-solid fa-solar-panel"></i></div>
+                <div class="project-content">
+                    <h3>Solar Power Generation Prediction using Machine Learning</h3>
+                    <p>Developed an intelligent predictive system to forecast solar energy generation using environmental and weather-related data. Performed data preprocessing, feature engineering, model training, and performance evaluation to improve prediction accuracy. Created visual analytics to support renewable energy optimization and data-driven decision-making.</p>
+                    <div class="project-skills">
+                        <span>Python</span><span>Machine Learning</span><span>Data Analysis</span><span>Scikit-learn</span><span>Data Visualization</span><span>Predictive Modeling</span><span>Renewable Energy Analytics</span>
+                    </div>
+                    <a href="https://github.com/mrpk7431-dev/Solar-Power-Generation-Prediction-using-Machine-Learning" target="_blank" class="project-link">View on GitHub <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+
+            <!-- Project 2 -->
+            <div class="project-card glass-panel reveal">
+                <div class="project-icon"><i class="fa-solid fa-robot"></i></div>
+                <div class="project-content">
+                    <h3>Local LLM Based Multimodal AI Chatbot</h3>
+                    <p>Built a privacy-focused multimodal AI chatbot powered by locally deployed Large Language Models (LLMs) capable of understanding and responding to text, documents, and image inputs. Implemented context-aware interactions with offline inference to deliver secure, efficient, and intelligent conversational experiences.</p>
+                    <div class="project-skills">
+                        <span>Python</span><span>LLMs</span><span>NLP</span><span>Multimodal AI</span><span>Local AI Deployment</span><span>Prompt Engineering</span><span>AI App Development</span>
+                    </div>
+                    <a href="https://github.com/mrpk7431-dev/Local-LLM-Based-Multimodal-AI-Chatbot" target="_blank" class="project-link">View on GitHub <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="certificates" class="section">
+        <h2 class="section-title reveal">My <span>Certificates</span></h2>
+        <div class="certificates-grid reveal">
+            <!-- Certificate 1 -->
+            <div class="cert-card glass-panel">
+                <img src="assets/certificate/Python Programming Fundamentals_page-0001.jpg" alt="Python Programming Fundamentals Certificate" class="cert-img">
+                <div class="cert-content">
+                    <div class="cert-provider"><i class="fa-solid fa-award" style="color: var(--secondary-color);"></i> Microsoft</div>
+                    <h3>Python Programming Fundamentals</h3>
+                    <p class="cert-desc">Mastered core Python concepts, data structures, and algorithms for robust software development.</p>
+                    <div class="cert-skills">
+                        <span>Python</span><span>Data Structures</span><span>Algorithms</span>
+                    </div>
+                    <a href="https://coursera.org/share/d72812213a63c7dc59d617111589ad9c" target="_blank" class="cert-link">Verify Credential <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <!-- Certificate 2 -->
+            <div class="cert-card glass-panel">
+                <img src="assets/certificate/Machine Learning with Python_page-0001.jpg" alt="Machine Learning with Python Certificate" class="cert-img">
+                <div class="cert-content">
+                    <div class="cert-provider"><i class="fa-solid fa-award" style="color: var(--primary-color);"></i> IBM</div>
+                    <h3>Machine Learning with Python</h3>
+                    <p class="cert-desc">Developed predictive models using regression, classification, and clustering algorithms with Scikit-Learn.</p>
+                    <div class="cert-skills">
+                        <span>Machine Learning</span><span>Scikit-Learn</span><span>Regression</span>
+                    </div>
+                    <a href="https://coursera.org/share/ab86e0372a01b306efc801a505b7c0ab" target="_blank" class="cert-link">Verify Credential <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <!-- Certificate 3 -->
+            <div class="cert-card glass-panel">
+                <img src="assets/certificate/Introduction to Neural Networks and PyTorch_page-0001.jpg" alt="Introduction to Neural Networks and PyTorch Certificate" class="cert-img">
+                <div class="cert-content">
+                    <div class="cert-provider"><i class="fa-solid fa-award" style="color: var(--primary-color);"></i> IBM</div>
+                    <h3>Intro to Neural Networks and PyTorch</h3>
+                    <p class="cert-desc">Built foundational knowledge of neural architectures and implemented models using PyTorch.</p>
+                    <div class="cert-skills">
+                        <span>Neural Networks</span><span>PyTorch</span><span>Deep Learning</span>
+                    </div>
+                    <a href="https://coursera.org/share/18bb87909a801318f91aac47c00e4949" target="_blank" class="cert-link">Verify Credential <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <!-- Certificate 4 -->
+            <div class="cert-card glass-panel">
+                <img src="assets/certificate/Deep Learning with PyTorch_page-0001.jpg" alt="Deep Learning with PyTorch Certificate" class="cert-img">
+                <div class="cert-content">
+                    <div class="cert-provider"><i class="fa-solid fa-award" style="color: var(--primary-color);"></i> IBM</div>
+                    <h3>Deep Learning with PyTorch</h3>
+                    <p class="cert-desc">Designed and trained advanced deep learning models for complex AI applications using PyTorch.</p>
+                    <div class="cert-skills">
+                        <span>Deep Learning</span><span>PyTorch</span><span>AI Models</span>
+                    </div>
+                    <a href="https://coursera.org/share/f60447eb0367e383616ae54cbfd96f51" target="_blank" class="cert-link">Verify Credential <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <!-- Certificate 5 -->
+            <div class="cert-card glass-panel">
+                <img src="assets/certificate/Introduction to Deep Learning & Neural Networks with Keras_page-0001.jpg" alt="Introduction to Deep Learning and Neural Networks with Keras Certificate" class="cert-img">
+                <div class="cert-content">
+                    <div class="cert-provider"><i class="fa-solid fa-award" style="color: var(--primary-color);"></i> IBM</div>
+                    <h3>Intro to Deep Learning & Neural Networks with Keras</h3>
+                    <p class="cert-desc">Learned the principles of deep learning and neural network construction using the Keras API.</p>
+                    <div class="cert-skills">
+                        <span>Deep Learning</span><span>Keras</span><span>Neural Networks</span>
+                    </div>
+                    <a href="https://coursera.org/share/0966347ab407e98332ee7485906d05e3" target="_blank" class="cert-link">Verify Credential <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <!-- Certificate 6 -->
+            <div class="cert-card glass-panel">
+                <img src="assets/certificate/Deep Learning with Keras and Tensorflow_page-0001.jpg" alt="Deep Learning with Keras and Tensorflow Certificate" class="cert-img">
+                <div class="cert-content">
+                    <div class="cert-provider"><i class="fa-solid fa-award" style="color: var(--primary-color);"></i> IBM</div>
+                    <h3>Deep Learning with Keras and Tensorflow</h3>
+                    <p class="cert-desc">Scaled neural networks and optimized deep learning workflows utilizing TensorFlow and Keras.</p>
+                    <div class="cert-skills">
+                        <span>TensorFlow</span><span>Keras</span><span>Optimization</span>
+                    </div>
+                    <a href="https://coursera.org/share/42540d93d44df17e38059f3e85345a22" target="_blank" class="cert-link">Verify Credential <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <!-- Certificate 7 -->
+            <div class="cert-card glass-panel">
+                <img src="assets/certificate/Start Writing Prompts like a Pro_page-0001.jpg" alt="Start Writing Prompts like a Pro Certificate" class="cert-img">
+                <div class="cert-content">
+                    <div class="cert-provider"><i class="fa-solid fa-award" style="color: var(--accent-color);"></i> Google</div>
+                    <h3>Start Writing Prompts like a Pro</h3>
+                    <p class="cert-desc">Acquired advanced prompt engineering techniques to maximize the efficiency of Generative AI.</p>
+                    <div class="cert-skills">
+                        <span>Prompt Engineering</span><span>Generative AI</span>
+                    </div>
+                    <a href="https://coursera.org/share/f7f820afb08a72d473bd780d18e1fded" target="_blank" class="cert-link">Verify Credential <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <!-- Certificate 8 -->
+            <div class="cert-card glass-panel">
+                <img src="assets/certificate/Use AI as a Creative or Expert Partner_page-0001.jpg" alt="Use AI as a Creative or Expert Partner Certificate" class="cert-img">
+                <div class="cert-content">
+                    <div class="cert-provider"><i class="fa-solid fa-award" style="color: var(--accent-color);"></i> Google</div>
+                    <h3>Use AI as a Creative or Expert Partner</h3>
+                    <p class="cert-desc">Leveraged AI tools for creative problem-solving and expert-level analytical workflows.</p>
+                    <div class="cert-skills">
+                        <span>AI Problem Solving</span><span>GenAI Workflows</span>
+                    </div>
+                    <a href="https://coursera.org/share/21bffbd806fa3e7c3a8954e8fa89827f" target="_blank" class="cert-link">Verify Credential <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section">
+        <h2 class="section-title reveal">Contact <span>Me</span></h2>
+        <div class="contact-container glass-panel reveal">
+            <div class="quote-icon">
+                <i class="fa-solid fa-quote-left"></i>
+            </div>
+            <h3 class="contact-quote">"Every great innovation begins with a simple conversation."</h3>
+            <p class="contact-subtext">Let's connect and build something extraordinary together.</p>
+            
+            <div class="contact-links">
+                <a href="https://wa.me/917010407457" target="_blank" class="contact-btn whatsapp-btn">
+                    <i class="fa-brands fa-whatsapp"></i> WhatsApp Me
+                </a>
+                <a href="mailto:mrpk7431@gmail.com" class="contact-btn email-btn">
+                    <i class="fa-solid fa-envelope"></i> Email Me
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Praveenkumar. All rights reserved.</p>
+    </footer>
+
+    <!-- Certificate Modal -->
+    <div id="certModal" class="modal">
+        <span class="close-modal">&times;</span>
+        <div class="modal-inner">
+            <img class="modal-content" id="modalImg">
+            <div id="modalCaption" class="cert-content"></div>
+        </div>
+    </div>
+
+    <!-- Vanilla Tilt JS for 3D card effects -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.8.0/vanilla-tilt.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
